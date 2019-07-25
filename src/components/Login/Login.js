@@ -13,7 +13,7 @@ class Login extends Component {
     }
 
     ObtenerDatos(){
-        
+
     }
     render() {
         return (
@@ -22,7 +22,7 @@ class Login extends Component {
                 <Row className="justify-content-md-center degradado alto flex">
                     <Col md="4">
                         <Card>
-                            <Card.Img variant="top" src="https://via.placeholder.com/728x90.png?text=Visit+WhoIsHostingThis.com+Buyers+GuideC/O https://placeholder.com/" />
+                            <Card.Img variant="top" src="https://via.placeholder.com/731x180.png?text=Visit+WhoIsHostingThis.com+Buyers+GuideC/O https://placeholder.com/" />
                             <Card.Body>
                                 <Card.Text>
                                     
@@ -30,16 +30,16 @@ class Login extends Component {
                                         // datos a procesar del formulario
                                         >
                                             <Form.Group controlId="formBasicEmail">
-                                                <Form.Label>Email address</Form.Label>
-                                                <Form.Control type="email" placeholder="Enter email" />
+                                                <Form.Label>Email: </Form.Label>
+                                                <Form.Control type="email" placeholder="ejemplo@ejemplo.com" />
                                             </Form.Group>
 
                                             <Form.Group controlId="formBasicPassword">
-                                                <Form.Label>Password</Form.Label>
-                                                <Form.Control type="password" placeholder="Password" />
+                                                <Form.Label>Contraseña: </Form.Label>
+                                                <Form.Control type="password" placeholder="********" />
                                             </Form.Group>
 
-                                            <Button variant="outline-primary" block className="boton-login border">Inicia Sesion ...!!</Button>
+                                            <Button variant="outline-primary" block className="boton-login border color">Inicia Sesion ...!!</Button>
 
                                         </Form>
                                 

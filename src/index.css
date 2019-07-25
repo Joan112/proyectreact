@@ -11,7 +11,7 @@ code {
 
 .degradado {
   /* background: linear-gradient(30deg, crimson, sienna, royalblue, indianred, purple); */
-  background: linear-gradient(30deg,  sienna,  purple) !important;
+  background: linear-gradient(30deg,  peru ,  purple) !important;
   background-size: cover;
 }
 
@@ -24,11 +24,9 @@ code {
   align-items: center;
 }
 .boton-login:hover{
-  background: linear-gradient(30deg,  sienna,  purple) !important;
+  background: linear-gradient(30deg,  peru ,  purple) !important;
   
 }
-.border{
-  /* background: linear-gradient(30deg, crimson, sienna, royalblue, indianred, purple) !important; */
-  /* border: 1px solid linear-gradient(30deg, crimson, sienna, royalblue, indianred, purple) !important; */
-  /* background: linear-gradient(30deg,  sienna,  purple) !important; */
+.color{
+  color: black;
 }
